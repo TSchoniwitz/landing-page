@@ -89,8 +89,29 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
+    text-align: center;
 }
 
 .info-cat {
     border-radius: 10px;
+}
+
+.third-section {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
 }
